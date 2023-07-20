@@ -15,6 +15,7 @@ struct Topic1in1View: View {
                 //background
                 Color(red: 0.799, green: 0.856, blue: 0.951)
                     .ignoresSafeArea()
+                
                 VStack(alignment: .center) {
                     Text("Development\nMethodologies")
                         .font(.title)

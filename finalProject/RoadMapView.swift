@@ -13,7 +13,10 @@ struct RoadMapView: View {
         NavigationStack {
         ZStack() {
             //background
-            Color(red: 0.799, green: 0.856, blue: 0.951)
+//            Color(red: 0.799, green: 0.856, blue: 0.951)
+            Image("background")
+                .background()
+                .scaledToFill()
                 .ignoresSafeArea()
             
             VStack() {
