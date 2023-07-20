@@ -9,7 +9,7 @@ import SwiftUI
 
 struct RoadMapView: View {
     var body: some View {
-        ZStack(){
+        ZStack() {
             //background
             LinearGradient(
                 colors: [.blue, .white],
@@ -19,7 +19,7 @@ struct RoadMapView: View {
             .ignoresSafeArea()
             .opacity(0.8)
             
-            VStack(){
+            VStack() {
                 //view title
                 Text("Road Map")
                     .font(.title)
@@ -27,7 +27,7 @@ struct RoadMapView: View {
                     .padding(.trailing, 170)
                     .offset(x:0, y:250)
                 //cloud4
-                ZStack(){
+                ZStack() {
                     Image("cloud1")
                         .resizable()
                         .scaledToFit()
@@ -44,7 +44,7 @@ struct RoadMapView: View {
                         .offset(x: -140, y: 290)
                 }
                 //cloud3
-                ZStack(){
+                ZStack() {
                     Image("cloud1")
                         .resizable()
                         .scaledToFit()
@@ -61,7 +61,7 @@ struct RoadMapView: View {
                         .offset(x: 28, y: 155)
                 }
                 //cloud2
-                ZStack(){
+                ZStack() {
                     Image("cloud1")
                         .resizable()
                         .scaledToFit()
