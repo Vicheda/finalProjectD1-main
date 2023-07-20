@@ -9,15 +9,12 @@ import SwiftUI
 
 struct RoadMapView: View {
     var body: some View {
+        //source: BBC Bite Size
+        NavigationStack {
         ZStack() {
             //background
-            LinearGradient(
-                colors: [.blue, .white],
-                startPoint: .top,
-                endPoint: .bottom
-            )
-            .ignoresSafeArea()
-            .opacity(0.8)
+            Color(red: 0.799, green: 0.856, blue: 0.951)
+                .ignoresSafeArea()
             
             VStack() {
                 //view title
@@ -26,6 +23,11 @@ struct RoadMapView: View {
                     .fontWeight(.bold)
                     .padding(.trailing, 170)
                     .offset(x:0, y:250)
+                Text("(Computer Science)")
+                    .font(.title2)
+                    .fontWeight(.light)
+                    .padding(.trailing, 115)
+                    .offset(x:0, y:260)
                 //cloud4
                 ZStack() {
                     Image("cloud1")
@@ -33,7 +35,7 @@ struct RoadMapView: View {
                         .scaledToFit()
                         .offset(x: -80, y: 320)
                         .frame(width: 200.0, height: 130.0)
-                    Text("Functions")
+                    Text("Web Design...")
                         .font(.subheadline)
                         .fontWeight(.medium)
                         .padding(.trailing, 155)
@@ -50,7 +52,7 @@ struct RoadMapView: View {
                         .scaledToFit()
                         .offset(x: 85, y: 185)
                         .frame(width: 200.0, height: 130.0)
-                    Text("Conditionals")
+                    Text("Database\nDesign + Development")
                         .font(.subheadline)
                         .fontWeight(.medium)
                         .padding(.leading, 175)
@@ -66,8 +68,8 @@ struct RoadMapView: View {
                         .resizable()
                         .scaledToFit()
                         .offset(x: -80, y: 50)
-                        .frame(width: 200.0, height: 130.0)
-                    Text("Comparisons")
+                        .frame(width: 250.0, height: 150.0)
+                    Text("Comp. Systems")
                         .font(.subheadline)
                         .fontWeight(.medium)
                         .padding(.trailing, 155)
@@ -77,6 +79,7 @@ struct RoadMapView: View {
                         .fontWeight(.bold)
                         .offset(x: -140, y: 20)
                 }
+                
                 //cloud1 + flying pig
                 ZStack(){
                     Image("flying pig")
@@ -85,12 +88,14 @@ struct RoadMapView: View {
                         .offset(x: 75, y: -45)
                         .frame(width: 250.0, height: 200.0)
                     ZStack(){
-                        Image("cloud1")
-                            .resizable()
-                            .scaledToFit()
-                            .offset(x: 73, y: 35)
-                            .frame(width: 250.0, height: 170.0)
-                        Text("Foundations \nof Swfit")
+                        NavigationLink(destination: Topic1View()) {
+                            Image("cloud1")
+                                .resizable()
+                                .scaledToFit()
+                                .offset(x: 73, y: 35)
+                                .frame(width: 250.0, height: 170.0)
+                        }
+                        Text("Software Design\n          & Dev")
                             .font(.subheadline)
                             .fontWeight(.medium)
                             .padding(.leading, 150)
@@ -101,6 +106,7 @@ struct RoadMapView: View {
                     }
                 }
                 .padding(.bottom, 200)
+                }
             }
         }
     }

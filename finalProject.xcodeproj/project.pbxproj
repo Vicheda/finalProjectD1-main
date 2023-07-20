@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8D5E6C792A699E5000208208 /* Topic2in1View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D5E6C782A699E5000208208 /* Topic2in1View.swift */; };
+		8DA8E97C2A698B500043DB7A /* Topic1View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA8E97B2A698B500043DB7A /* Topic1View.swift */; };
+		8DA8E9802A6991000043DB7A /* Topic1in1View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA8E97F2A6991000043DB7A /* Topic1in1View.swift */; };
 		8DE573E52A691FDE008D5767 /* RoadMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DE573E42A691FDE008D5767 /* RoadMapView.swift */; };
 		B853D9D72A61CEEE006FB46E /* finalProjectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B853D9D62A61CEEE006FB46E /* finalProjectApp.swift */; };
 		B853D9D92A61CEEE006FB46E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B853D9D82A61CEEE006FB46E /* ContentView.swift */; };
@@ -15,6 +18,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8D5E6C782A699E5000208208 /* Topic2in1View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Topic2in1View.swift; sourceTree = "<group>"; };
+		8DA8E97B2A698B500043DB7A /* Topic1View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Topic1View.swift; sourceTree = "<group>"; };
+		8DA8E97F2A6991000043DB7A /* Topic1in1View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Topic1in1View.swift; sourceTree = "<group>"; };
 		8DE573E42A691FDE008D5767 /* RoadMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoadMapView.swift; sourceTree = "<group>"; };
 		B853D9D32A61CEEE006FB46E /* finalProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = finalProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B853D9D62A61CEEE006FB46E /* finalProjectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = finalProjectApp.swift; sourceTree = "<group>"; };
@@ -56,6 +62,9 @@
 				B853D9D62A61CEEE006FB46E /* finalProjectApp.swift */,
 				B853D9D82A61CEEE006FB46E /* ContentView.swift */,
 				8DE573E42A691FDE008D5767 /* RoadMapView.swift */,
+				8DA8E97B2A698B500043DB7A /* Topic1View.swift */,
+				8DA8E97F2A6991000043DB7A /* Topic1in1View.swift */,
+				8D5E6C782A699E5000208208 /* Topic2in1View.swift */,
 				B853D9DA2A61CEF4006FB46E /* Assets.xcassets */,
 				B853D9DC2A61CEF4006FB46E /* Preview Content */,
 			);
@@ -142,7 +151,10 @@
 			files = (
 				B853D9D92A61CEEE006FB46E /* ContentView.swift in Sources */,
 				B853D9D72A61CEEE006FB46E /* finalProjectApp.swift in Sources */,
+				8DA8E97C2A698B500043DB7A /* Topic1View.swift in Sources */,
 				8DE573E52A691FDE008D5767 /* RoadMapView.swift in Sources */,
+				8D5E6C792A699E5000208208 /* Topic2in1View.swift in Sources */,
+				8DA8E9802A6991000043DB7A /* Topic1in1View.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
