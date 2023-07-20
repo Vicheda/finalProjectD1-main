@@ -31,7 +31,7 @@ struct Topic2in1View: View {
                         Text("Analysis is the first phase of software development. A client will ask a software development team to develop a piece of software.\n\nTo begin with, a systems analyst will meet with the client to determine: the purpose of the software, the functional requirements of the software.\n\nThe purpose of a piece of software is often expressed as a description of what the software will be used for. The functional requirements will specify inputs, processes and outputs.")
                             .padding(20)
                         
-                        NavigationLink(destination: Topic2in1View()) {
+                        NavigationLink(destination: ContentView()) {
                             Text("Next")
                             .padding()
                             .font(.title2)
